@@ -4,14 +4,17 @@ import React, { useState } from 'react';
 function App() {
 
 const [count, setCount] = useState(4)
+//removed setTheme state here
 
 function decrementCount(){
   setCount(prevCount => prevCount - 1)
+  //removed setTheme state here
 }
 
 
 function incrementCount() {
   setCount(prevCount => prevCount + 1)
+  //removed setTheme state here
 }
   return (
     <>
